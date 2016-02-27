@@ -264,7 +264,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .experiences, .skill {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -272,6 +272,11 @@ ul#nav li.current a { color: #F06000; }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
+   margin-bottom: 5px;
+   margin-top: 9px;
+}
+
+#resume .education .main-col .rank p{
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -291,6 +296,14 @@ ul#nav li.current a { color: #F06000; }
 
 #resume .experiences .main-col div{
   margin-bottom: 9px;
+}
+#resume .detail{
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+
+#resume .skill .main-col div{
+ margin-bottom: 9px; 
 }
 
 #resume .experiences .main-col .three h6{
@@ -329,11 +342,6 @@ ul#nav li.current a { color: #F06000; }
 #publications .header-col { padding-top: 9px; }
 #publications .main-col { padding-right: 10%; }
 
-.education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
-}
 #publications .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
