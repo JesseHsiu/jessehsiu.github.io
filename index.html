@@ -103,7 +103,7 @@
 
                <div class="columns download">
                   <p>
-                     <a target="_blank" href="./resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                     <a target="_blank" href="./resume.pdf" class="button resumeBtn"><i class="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
 
@@ -575,6 +575,10 @@
 
      ga('create', 'UA-74433767-1', 'auto');
      ga('send', 'pageview');
+
+     $(".resumeBtn").click( function() {
+         ga('send', 'event', 'Click', 'Download', 'Resume');
+      });
    </script>
 
 </body>
